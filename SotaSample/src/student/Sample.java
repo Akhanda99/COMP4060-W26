@@ -1,4 +1,4 @@
-package sample4060;
+package student;
 import java.awt.Color;
 
 import jp.vstone.RobotLib.*;

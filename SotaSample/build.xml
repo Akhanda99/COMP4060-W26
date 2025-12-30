@@ -82,8 +82,8 @@
                 <!-- ============ add your own as you go-->
                 <!-- ============ -->
                 <antcall target="__make_jar">
-                        <param name="jar.class" value="sample4060.Sample" />
-                        <param name="jar.name" value="sample4060-sample.jar" />
+                        <param name="jar.class" value="student.Sample" />
+                        <param name="jar.name" value="student-sample.jar" />
                 </antcall>
 
                 <antcall target="__make_jar">
@@ -120,7 +120,7 @@
 
                 <!-- put other programs here -->
                 <!-- <antcall target="__make_jar">  
-                        <param name="jar.class" value="sample4060.Sample" />
+                        <param name="jar.class" value="student.Sample" />
                         <param name="jar.name" value="sample4060.jar" />
                 </antcall> -->
         </target>
