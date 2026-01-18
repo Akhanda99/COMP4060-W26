@@ -57,7 +57,7 @@ public class Sample {
 			motion.play(pose,500);
 			motion.waitEndinterpAll();
 
-			CPlayWave.PlayWave(SOUNDS+"end_test.wav");
+			CPlayWave.PlayWave("D:/COMP4060-W26/SotaSample/resources/sound/end_test.wav");
 			CRobotUtil.wait(2000);
 		}
 	}
